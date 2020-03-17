@@ -19,7 +19,7 @@ class UI {
           <br><br>
           <ul class="list-group">
             <li class="list-group-item">Company: ${user.company}</li>
-            <li class="list-group-item">Website/Blog: <a href="http://${user.blog}" target="_blank">${user.blog}</a></li>
+            <li class="list-group-item">Website/Blog: <a href="${user.blog}" target="_blank">${user.blog}</a></li>
             <li class="list-group-item">Location: ${user.location}</li>
             <li class="list-group-item">Member Since: ${user.created_at}</li>
           </ul>
