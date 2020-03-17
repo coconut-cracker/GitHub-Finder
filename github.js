@@ -1,7 +1,7 @@
 class GitHub {
   constructor() {
     this.config = {
-      headers: { Authorization: "e53f369c62fbacd3fbeed8cde0572e11e23b7bf9" }
+      headers: { Authorization: "token e53f369c62fbacd3fbeed8cde0572e11e23b7bf9" }
     };
 
     // this.client_id = "0ab7dc7135fcc7cfc5e3";
