@@ -4,8 +4,7 @@ class GitHub {
       headers: { Authorization: "e53f369c62fbacd3fbeed8cde0572e11e23b7bf9" }
     };
 
-    // this.client_id = "0ab7dc7135fcc7cfc5e3";
-    // this.client_secret = "ef56619b47749510642443159bc125ad0321b1af";
+
     this.repos_count = 5;
     this.repos_sort = "created: asc";
   }
